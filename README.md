@@ -1,5 +1,178 @@
 # Assignment 1
 
+h2 project
+Textile syntax examples[edit]
+This is not an exhaustive listing of Textile's syntax. For a list of all available options in Textile 2, see
+
+a full reference and example list of Textile v2.0,
+PHP-Textile v3.5.5 documentation with real-time conversion.
+Emphasized text[edit]
+_emphasized_ (i.e., italics)
+*strongly emphasized* (i.e., boldface)
+=== Personal Strengths ===
+* An item in a bulleted (unordered) list
+* Another item in a bulleted list
+** Second Level
+** Second Level Items
+*** Third level
+# An item in an enumerated (ordered) list xxxxxxx
+# Another item in an enumerated list yyyyyy
+## Another level in an enumerated list vvvvvvvv
+#8 Enumerated list, starting by number eight
+# List item No. 9
+
+Some text paragraph
+
+#_ Continuing list item, numbered as 10
+# Item 11
+* This is a bullet
+*# this is the start of an enumerated list within a bulleted list
+*# this is another item list of an enumerated list within a bulleted list
+**# this is another level of an enumerated list within a bulleted list
+* This is another bullet
+; Definition list term
+: Definition list data item
+: Another data item
+- coffee := Hot _and_ black
+- tea := Also hot, but a little less black
+- milk := Nourishing beverage for baby cows.
+Cold drink that goes great with cookies. =:
+Tables[edit]
+A pipe character must be at the beginning and end of every row.
+
+|_. column name1(aaa) |_. column name2 |_. column name3 |
+| laura | 111 | Cell 3 |
+| Manuel | Vasquez | Cell 3 |
+In this example, the "|_." sequence causes the entry to be in bold. There must be no space after the initial pipe character.
+
+Code[edit]
+Generic example:
+
+@your code here@
+Blocks of code:
+
+bc.. puts "This style (notice the double dot) handles blank lines."
+puts "This is the second line of code."
+
+puts "This is the fourth."
+End the block with p. or with another block tag.
+
+Or alternatively you can use this syntax for small blocks:
+
+bc. puts "This style (notice the single dot) stops at the first blank line."
+puts "This is the second line of code."
+
+This is not code.
+Headings[edit]
+You must leave a blank line after each heading.
+
+h1(#id). An HTML first-level heading
+
+h2. An HTML second-level heading
+
+h3. An HTML third-level heading
+
+h4. An HTML fourth-level heading
+
+h5. An HTML fifth-level heading
+
+h6. An HTML sixth-level heading
+
+
+bq. This text will be enclosed in an HTML blockquote element.
+Notes[edit]
+Text with a link to some reference[1]
+
+fn1. Footnote explanation
+Text with a link to some reference[#mylabel]
+
+notelist. 
+
+note#mylabel Explanation as an auto-numbered endnote
+Links[edit]
+also: Hyperlinks
+
+"(classname)link text(title tooltip)":link_address
+Email links[edit]
+ "(classname)link text(title tooltip)":mailto:someone@example.com
+Images[edit]
+!image url
+Formatting help table[edit]
+This table summarizes the available textile markers
+
+Textile markers
+Textile	Visual result
+*bold text*	bold text
+_italic text_	italic text
+*_bold italic text_*	bold italic text
+-strikethrough text-	strikethrough text
+*-bold strikethrough text-*	bold strikethrough text
+*_-bold italic strikethrough text-_*	bold italic strikethrough text
++underlined text+	underlined text
+*+bold underlined text+*	bold underlined text
+_+italic underlined text+_	italic underlined text
+*_+bold italic underlined text+_*	bold italic underlined text
+*_-+bold italic strikethrough underlined text+-_*	bold italic strikethrough underlined text
+%{font-size:18pt}font size%	font size
+%{color:red}text in red%	text in red
+# Chapter 1	
+Chapter 1
+* bulleted list
+** 2-level	
+bulleted list
+2-level
+|Table | with two columns |
+|and two | rows |	
+Table	with two columns
+and two	rows
+"Link to Wikipedia":http://www.wikipedia.org	Link to Wikipedia
+!http://commons.wikimedia.org/wiki/Special:Filepath/Wikipedia-logo-en.png!	Wikipedia-logo-en.png
+Brand ^TM^	Brand TM
+Text ~subscript~	Text subscript
+
+
+
+|_. column name1(aaa) |_. column name2 |_. column name3 |
+| laura | 111 | Cell 3 |
+| Manuel | Vasquez | Cell 3 |
+
+
+_emphasized_ (i.e., italics)
+*strongly emphasized* (i.e., boldface)
+=== Personal Strengths ===
+* An item in a bulleted (unordered) list
+* Another item in a bulleted list
+** Second Level
+** Second Level Items
+*** Third level
+# An item in an enumerated (ordered) list xxxxxxx
+# Another item in an enumerated list yyyyyy
+## Another level in an enumerated list vvvvvvvv
+#8 Enumerated list, starting by number eight
+# List item No. 9
+
+Some text paragraph
+
+#_ Continuing list item, numbered as 10
+# Item 11
+* This is a bullet
+*# this is the start of an enumerated list within a bulleted list
+*# this is another item list of an enumerated list within a bulleted list
+**# this is another level of an enumerated list within a bulleted list
+* This is another bullet
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is the pinteresting application for 
 [*The Hoboken Mesh*](http://www.thehobokenmesh.com)
 
