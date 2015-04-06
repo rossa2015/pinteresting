@@ -1,3 +1,5 @@
+h2
+
 # One Month Rails
 
 This is the pinteresting application for 
